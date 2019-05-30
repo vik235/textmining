@@ -1,0 +1,13 @@
+Always Transition to tidytext for IO with following packages at runtime w/o any friction. 
+Tidy text : One token per row (usually achieved via tokenization)
+//tidy tools 
+1. Tidytext 
+2. Broom 
+3. dplyr 
+4. tidyr
+
+//Some other class of packages 
+
+(document term matrix based techniques)
+5. tm 
+6. qunateda 
