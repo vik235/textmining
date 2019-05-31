@@ -25,6 +25,11 @@ get_sentiments("bing")
 
 
 ## nrc much much more .. 
-
 get_sentiments("nrc") %>% 
   filter(sentiment == "negative" | sentiment == "positive")
+
+##these are crowd sourced so pros and cons. Be sensitive to this
+## consider usign domain specific lexicons
+## these are also unigram lexs ..
+
+## be considerate on the size of the chunk of the text considered. 
